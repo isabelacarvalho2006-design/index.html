@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inscrição | Nossa ONG</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="cabecalho">
+            <img src="ASSETS/ASSETS/logo.png" alt="Logo da ONG" class="logo">
+
+            <h1>Nossa ONG</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="inscricao">
+
+            <img
+                src="ASSETS/ASSETS/logo.png"
+                alt="Logo da ONG"
+                class="logo-inscricao"
+            >
+
+            <h2>Inscrição para o evento</h2>
+
+            <p>
+                Preencha seus dados para participar da nossa atividade.
+            </p>
+
+
+            <form>
+
+                <!-- DADOS PESSOAIS -->
+
+                <h3>Seus dados</h3>
+
+                <label for="nome">
+                    Nome completo
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome completo"
+                    required
+                >
+
+
+                <label for="telefone">
+                    Telefone
+                </label>
+
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(11) 99999-9999"
+                    required
+                >
+
+
+                <label for="endereco">
+                    Endereço
+                </label>
+
+                <input
+                    type="text"
+                    id="Rua"
+                    name="Rua"
+                    placeholder="Rua"
+                    required
+                >
+                <input
+                    type="text"
+                    id="Numero"
+                    name="Numero"
+                    placeholder="Numero"
+                    required
+                ><input
+                    type="text"
+                    id="Bairro"
+                    name="Bairro"
+                    placeholder="Bairro"
+                    required
+                >
+
+
+                <!-- ENQUETE DO EVENTO -->
+
+                <div class="pergunta">
+
+                    <h3>
+                        Você quer participar deste evento?
+                    </h3>
+
+                    <label class="opcao">
+                        <input
+                            type="radio"
+                            name="participar"
+                            value="sim"
+                            required
+                        >
+
+                        Sim, quero participar
+                    </label>
+
+
+                    <label class="opcao">
+                        <input
+                            type="radio"
+                            name="participar"
+                            value="nao"
+                        >
+
+                        Não
+                    </label>
+
+                </div>
+
+
+                <!-- CAMPO PARA ESCREVER -->
+
+                <label for="opcao">
+                    Qual opção você escolheu? Conte qual evento você quer participar:
+                </label>
+
+                <textarea
+                    id="opcao"
+                    name="opcao"
+                    rows="4"
+                    placeholder="Escreva aqui sua resposta..."
+                ></textarea>
+
+
+                <!-- VOLUNTARIADO -->
+
+                <div class="pergunta">
+
+                    <h3>
+                        Você gostaria de ser voluntário?
+                    </h3>
+
+                    <label class="opcao">
+                        <input
+                            type="radio"
+                            name="voluntario"
+                            value="sim"
+                            required
+                        >
+
+                        Sim, quero ser voluntário
+                    </label>
+
+
+                    <label class="opcao">
+                        <input
+                            type="radio"
+                            name="voluntario"
+                            value="nao"
+                        >
+
+                        Não, neste momento
+                    </label>
+
+                </div>
+
+
+                <!-- BOTÃO -->
+
+                <button type="submit">
+                    Enviar inscrição
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Nossa ONG. Todos os direitos reservados.
+        </p>
+
+    </footer>
+<script src="ext.java"></script>
+
+</body>
+
+</html>
+
