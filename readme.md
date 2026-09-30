@@ -35,7 +35,7 @@ Para executar o projeto é necessário ter:
 
 1. Clone o repositório:
    
-   `git clone URL_DO_REPOSITORIO`
+   `https://github.com/isabelacarvalho2006-design/index.html`
 
 2. Entre na pasta do projeto.
 
