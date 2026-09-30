@@ -75,5 +75,3 @@ A primeira versão estável do projeto é identificada pela tag:
 Projeto desenvolvido como atividade acadêmica do curso de Ciência da
 Computação.
 
-git add README.md
-git commit -m "docs: adiciona README do projeto"
